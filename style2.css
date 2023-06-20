@@ -1,0 +1,129 @@
+header{
+
+width:100%;
+
+background-color: transparent;
+
+
+
+}
+.logo-cabeca{
+display:inline-flex;
+width:25%;
+margin-left:20%;
+
+}
+.logo-cabeca img{
+width:15%;
+height:20%;
+padding-top:9px;
+cursor:pointer;
+}
+.logo-cabeca h2{
+
+color:white;
+font-family:normal,cursive;
+padding-left: 8px;
+}
+.logo-cabeca a{
+text-decoration:none;
+margin-top:2%;
+color:white;
+font-family:normal,cursive;
+}
+
+body {
+      font-family: Arial, sans-serif;
+      background-color: #4B371C;
+}
+.logotipo
+{
+
+width:100%;
+
+
+}
+.logotipo h1{
+text-align:center;
+color:white;
+}
+
+   
+    .container {
+      width: 300px;
+      margin: 0 auto;
+      padding: 20px;
+      background: transparent;
+      backdrop-filter:blur(15px);
+      border: 1px solid #e6d4bb;
+      border-radius: 20px;
+      margin-top: 90px;
+ 
+ 
+    }
+   
+    .container h2 {
+      text-align: center;
+    }
+   
+    .container input[type="text"],
+    .container input[type="password"] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      border-radius: 4px;
+    }
+   
+    .container button {
+      background-color:  #663f16;
+      color: #e6d4bb;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      border-radius: 4px;
+    }
+   
+    .container button:hover {
+      background-color: #784008;
+    }
+label{
+color:white;
+}
+.cadastro{
+padding-top:5px;
+margin-left:8%;
+color:white;
+}
+.cadastro a{
+color:#e6d4bb;
+
+}
+
+.cadastro a:hover{
+color:#784008;
+
+}
+
+@media screen and (max-width:730px){
+.logo-cabeca{
+display:inline-flex;
+width:55%;
+margin-left:20%;
+
+}
+.logo-cabeca img{
+width:20%;
+height:28%;
+padding-top:10px;
+}
+    .logo-cabeca h2{
+margin-top:21%;
+color:#e6d4bb;
+}
+
+} 
